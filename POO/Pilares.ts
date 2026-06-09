@@ -1,5 +1,4 @@
 // ABSTRAÇÃO
-
 // Permite isolar de um objeto somente os conceitos que são necessários para o funcionamento do programa
 
 export class Pessoa {
@@ -13,7 +12,6 @@ export class Pessoa {
 }
 
 // ENCAPSULAMENTO
-
 // VISA OCULTAR PARTES INTERNAS DE UM OBJJETO E EXIBIR APENAS O NECESSARIO PARA USO EXTERNO
 export class RemoteControl {
     constructor(private powerStatus = false) {}
@@ -32,7 +30,6 @@ export class RemoteControl {
 }
 
 // HERANÇA
-
 // Visa passar caracteristicas de um objeto para outro
 
 export abstract class Animal {
@@ -42,7 +39,7 @@ export abstract class Animal {
 
 export class Dog extends Animal {
     makeNoise(): void {
-        console.timeLog(`${this.name} está fazendo AU AU...`);
+        console.log(`${this.name} está fazendo AU AU...`);
     }
 }
 
@@ -53,7 +50,6 @@ export class Cat extends Animal {
 }
 
 // POLIMORFISMO
-
 // Algo que é polimorfo tem habilidades de assumir diferentes formas.
 
 class AnimalSounds {
